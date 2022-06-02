@@ -395,7 +395,8 @@ p {
   }
   
   #sheetdb-form button[type="submit"]:hover {
-    background: #0f1256;
+    background: #4d5192;
+    color: #FFF;
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
