@@ -420,6 +420,7 @@ p {
   
 
   .moveTopBtn {
+    display: block;
     cursor: pointer;
     font-family: 'Raleway';
     font-size: 1rem;
@@ -430,6 +431,7 @@ p {
     height: 4rem;
     text-align: center;
     padding-top: 23px;
+    margin-right: 10px;
     border-radius: 50px;
     border: solid 1px #FFF;;
     background: #0f1256;
@@ -438,6 +440,7 @@ p {
 
 
    .moveBottomBtn {
+    display: block;
     cursor: pointer;
     font-family: 'Raleway';
     font-size: 0.9rem;

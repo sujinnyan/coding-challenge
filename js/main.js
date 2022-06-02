@@ -53,7 +53,7 @@ $topBtn.onclick = () => {
 const $bottomBtn = document.querySelector(".moveBottomBtn");
 
 $bottomBtn.onclick = () => {
-  window.scrollTo({ top: 1370, behavior: "smooth" });  
+  window.scrollTo({ top: 20000, behavior: "smooth" });  
 }
 
 
