@@ -419,6 +419,41 @@ p {
   }
   
 
+  .moveTopBtn {
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 5rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    padding-top: 23px;
+    border-radius: 50px;
+    border: solid 1px #FFF;;
+    background: #0f1256;
+    color: #FFF;
+   }
+
+
+   .moveBottomBtn {
+    cursor: pointer;
+    font-family: 'Raleway';
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    padding-top: 23px;
+    border-radius: 50px;
+    border: solid 1px #FFF;;
+    background: #0f1256;
+    color: #FFF;
+   }
+
   /* Footer */
 
   footer {
@@ -462,11 +497,11 @@ p {
     padding-bottom: 5px;
 }
 .footer-links > li > a:hover {
-    color: #FEF9B0;;
+    color: #FEF9B0;
 }
 
 .row-text >span {
-    color: #FEF9B0;;
+    color: #FEF9B0;
 }
 
 @media screen and (max-width: 1400px){
