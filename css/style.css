@@ -354,6 +354,8 @@ p {
     width: 100%;
   }
   
+
+
   #sheetdb-form input[type="text"],
   #sheetdb-form input[type="email"],
   #sheetdb-form input[type="tel"],
@@ -393,7 +395,7 @@ p {
     padding: 10px;
     font-size: 15px;
   }
-  
+
   #sheetdb-form button[type="submit"]:hover {
     background: #4d5192;
     color: #FFF;
