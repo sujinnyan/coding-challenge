@@ -27,20 +27,21 @@ function rotateImg() {
 rotateImg();
 
 
-var form = document.getElementById('sheetdb-form');
-form.addEventListener("submit", e => {
-    e.preventDefault();
-    fetch(form.action, {
-        method : "POST",
-        body : new FormData(document.getElementById("sheetdb-form")),
-    }).then(
-        reponse => Response.json()
-    ).then((html) => {
-        window.open('d.html', '_blank');
-    });
-});
 
-     
+
+const scriptURL = 'https://sheetdb.io/api/v1/35x25yd0arf5w'
+const form = document.forms['sheetdb-form']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => console.log('Success!', response))
+    .catch(error => console.error('Error!', error.message))
+})
+
+
+
+
 
 const $topBtn = document.querySelector(".moveTopBtn");
 
@@ -54,3 +55,12 @@ const $bottomBtn = document.querySelector(".moveBottomBtn");
 $bottomBtn.onclick = () => {
   window.scrollTo({ top: 1370, behavior: "smooth" });  
 }
+
+
+
+const $feedbackBtn = document.querySelector(".button");
+
+$feedbackBtn.onclick = () => {
+  window.scrollTo({ top: 850, behavior: "smooth" });  
+}
+
